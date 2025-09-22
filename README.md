@@ -1,5 +1,6 @@
 Nome do projeto:
-Ativ01
+Gerenciar Versionamento
+
 
 Explicação sobre o que se trata o projeto:
 Um sistema informatizando as rotinas e informações necessárias para uma casa de leilões
