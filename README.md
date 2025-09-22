@@ -7,4 +7,4 @@ Um sistema informatizando as rotinas e informações necessárias para uma casa 
 Tecnologias utilizadas: 
 Java e MySQL
 
-Desemvolvimento do teste por Gabriela L Silva
+Desenvolvimento do teste por Gabriela L Silva
