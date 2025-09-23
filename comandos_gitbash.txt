@@ -1,0 +1,161 @@
+    1  [200~cd "D:/Backup/Área de Trabalho/BD"
+    2  cd "F:\Users\Gabriela\Desktop\BD"
+    3  [200~cd "F:/Users/Gabriela/Desktop/BD"
+    4  cd "F:/Users/Gabriela/Desktop/BD"
+    5  "C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe" -u root -p -e "CREATE DATABASE projeto;"
+    6  "C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe" -u root -p projeto < "uc11.sql"
+    7  "C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe" -u root -p projeto < "uc11 (1).sql"
+    8  "C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe" -u root -p -e "USE projeto; SHOW TABLES;"
+    9  git --version
+   10  [200~git rebase -i HEAD~3
+   11  git rebase -i HEAD~3
+   12  [200~cd "C:/Users/Gabriela/Desktop/Ativ01"
+   13  cd "F:/Users/Gabriela/Desktop/Ativ01"
+   14  cd /f/Users/Gabriela/Desktop/Ativ01
+   15  cd /f/Users/Gabriela/Desktop/BD
+   16  pwd
+   17  ls -a
+   18  /f/Users/Gabriela/Desktop/BD/Ativ01
+   19  bash: /f/Users/Gabriela/Desktop/BD/Ativ01: Is a directory
+   20  cd /f/Users/Gabriela/Desktop/BD/Ativ01
+   21  pwd
+   22  ls -a
+   23  gitrebase -i HEAD~3
+   24  git rebase -i HEAD~3
+   25  invalid upstream 'HEAD~3'
+   26  git rebase -i HEAD~3
+   27  git log --oneline
+   28  git checkout main
+   29  git merge 01
+   30  git log --oneline
+   31  git rebase -i HEAD~2
+   32  git rebase -i d06ddaf
+   33  git reset --soft d06ddaf
+   34  git commit -m "Projeto Inicial -Adciona arquivos do projeto  - README.md completo"
+   35  git push origin main --force
+   36  git checkout main
+   37  git branch -d 01
+   38  git branch 
+   39  git push origin --delete 01
+   40  git branch -r
+   41  git log --oneline
+   42  C:\Users\Gabriela\.bash_history
+   43  grep "Ativ01" ~/.bash_history
+   44  git log --oneline
+   45  notepad ~/.bash_history
+   46  grep "Ativ01"~.bash_history
+   47  mysql -u root -p
+   48  git status
+   49  cd /f/Users/Gabriela/Desktop/BD\Ativ01\Ativ01
+   50  cd /f/Users/Gabriela/Desktop/BD/Ativ01
+   51  ls
+   52  git status
+   53  git checkout -b desenvolvimento
+   54  git branch
+   55  git add .
+   56  git add src/cadastroVIEW.java
+   57  git add src/ProdutosDAO.java
+   58  git commit -m "Commit 01: botão de salvar cadastrando produto"
+   59  git commit -m "Commit 02: exibe mensagem de sucesso ou falha ao cadastrar produto"
+   60  git commit -m "Commit 03: listagem de produtos exibida corretamente"
+   61  [200~git commit -m "Correção de bug em cadastroVIEW: tratamento de valor do produto"
+   62  cd Ativ01 rm-rn .git cd..
+   63  cd Ativ01 
+   64  rm -rf .git
+   65  cd ..
+   66  [200~git add Ativ01
+   67  git commit -m "Adiciona pasta Ativ01 ao repositório"
+   68  [200~cd /f/Users/Gabriela/Desktop/BD/Ativ01
+   69  cd /f/Users/Gabriela/Desktop/BD/Ativ01
+   70  cd Ativ01
+   71  rm -rf .git
+   72  cd ..
+   73  git status
+   74  git checkout -b desenvolvimento
+   75  git checkout desenvolvimento
+   76  git add Ativ01/*
+   77  git add LeiloesTDSat/*
+   78  git add "uc11 (1).sql"
+   79  cd Ativ01
+   80  rm -rm .git
+   81  rm -rf .git
+   82  cd ..
+   83  git add Ativ01/*
+   84  git add LeiloesTDSat/*
+   85  git add "uc11 (1).sql"
+   86  git rm --cached Ativ01
+   87  cd Ativ01
+   88  rm -rf .git
+   89  cd ..
+   90  git add Ativ01/*
+   91  git add LeiloesTDSat/*
+   92  git add "uc11 (1).sql"
+   93  git commit -m "Adiciona todos os arquivos do projeto sem submódulo"
+   94  git push origin desenvolvimento
+   95  Gabriela@DESKTOP-CQG6DPF MINGW64 /f/Users/Gabriela/Desktop/BD/Ativ01 (desenvolvimento)
+   96  $ git push origin desenvolvimento
+   97  Enumerating objects: 52, done.
+   98  Counting objects: 100% (52/52), done.
+   99  Delta compression using up to 12 threads
+  100  Compressing objects: 100% (48/48), done.
+  101  Writing objects: 100% (52/52), 3.11 MiB | 2.24 MiB/s, done.
+  102  Total 52 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)
+  103  remote: Resolving deltas: 100% (10/10), done.
+  104  remote: This repository moved. Please use the new location:
+  105  remote:   https://github.com/gabrielalemesdv/Gerenciar-Versionamento.git
+  106  remote:
+  107  remote: Create a pull request for 'desenvolvimento' on GitHub by visiting:
+  108  remote:      https://github.com/gabrielalemesdv/Gerenciar-Versionamento/pull/new
+  109  /desenvolvimento
+  110  remote:
+  111  To https://github.com/gabrielalemesdv/Ativ01.git
+  112   * [new branch]      desenvolvimento -> desenvolvimento
+  113  Gabriela@DESKTOP-CQG6DPF MINGW64 /f/Users/Gabriela/Desktop/BD/Ativ01 (desenvolvimen
+  114  [200~git remote set-url origin https://github.com/gabrielalemesdv/Gerenciar-Versionamento.git
+  115  git remote set-url origin https://github.com/gabrielalemesdv/Gerenciar-Versionamento.git
+  116  cd /f/Users/Gabriela/Desktop/BD/Ativ02
+  117  git status
+  118  git submodule deinit -f Ativ01
+  119  git rm -f Ativ01
+  120  git commit -m "Removendo submódulo Ativ01"
+  121  git add Ativ02
+  122  git commit -m "Adicionando Ativ02 com todo o conteúdo do projeto"
+  123  git push origin desenvolvimento
+  124  git log --oneline --graph --all
+  125  [200~git checkout desenvolvimento
+  126  git checkout desenvolvimento
+  127  git status
+  128  git rm -r --cached Ativ01
+  129  git status
+  130  git add Ativ02
+  131   git status
+  132  git commit -m "Renomeia Ativ01 para Ativ02 e atualiza versionamento"
+  133  git push origin desenvolvimento
+  134  cd /f/Users/Gabriela/Desktop/BD/Ativ02
+  135  git checkout desenvolvimento
+  136  git branch
+  137  git rm -r --cached Ativ01
+  138  git status
+  139  git commit -m "Renomeia Ativ01 para Ativ02 e atualiza versionamento"
+  140  git push origin desenvolvimento
+  141  git log --oneline --graph --all
+  142  git show-branch
+  143  git branch -a
+  144  git branch -a
+  145  git log --oneline --graph --all
+  146  git status
+  147  cd /f/Users/Gabriela/Desktop/Gerenciar-Versionamento
+  148  cd /f/Users/Gabriela/Desktop/BD/Ativ02
+  149  git branch
+  150  git branch -a
+  151  git log --oneline --graph --all
+  152  git log desenvolvimento
+  153  git log --pretty=fuller
+  154  cd /f/Users/Gabriela/Desktop/BD/Ativ02
+  155  git checkout desenvolvimento
+  156  git branch
+  157  git log --oneline --graph --decorate --all
+  158  git log --pretty=fuller --stat
+  159  history > comandos_gitbash.txt
+  160  cd /f/Users/Gabriela/Desktop/BD/Ativ02
+  161  history > comandos_gitbash.txt
